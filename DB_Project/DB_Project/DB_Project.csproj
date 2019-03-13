@@ -52,6 +52,42 @@
     <Compile Include="Controlls\CLMenuItemName.Designer.cs">
       <DependentUpon>CLMenuItemName.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrlAssesment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlAssesment.Designer.cs">
+      <DependentUpon>CrlAssesment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlAssesmentComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlAssesmentComponent.Designer.cs">
+      <DependentUpon>CrlAssesmentComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlClos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlClos.Designer.cs">
+      <DependentUpon>CrlClos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlRubricLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlRubricLevel.Designer.cs">
+      <DependentUpon>CrlRubricLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlRubrics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlRubrics.Designer.cs">
+      <DependentUpon>CrlRubrics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlStudent.Designer.cs">
+      <DependentUpon>CrlStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +110,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controlls\CLMenuItemName.resx">
       <DependentUpon>CLMenuItemName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlAssesment.resx">
+      <DependentUpon>CrlAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlAssesmentComponent.resx">
+      <DependentUpon>CrlAssesmentComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlClos.resx">
+      <DependentUpon>CrlClos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlRubricLevel.resx">
+      <DependentUpon>CrlRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlRubrics.resx">
+      <DependentUpon>CrlRubrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlStudent.resx">
+      <DependentUpon>CrlStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
