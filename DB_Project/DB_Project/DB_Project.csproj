@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClsDB.cs" />
+    <Compile Include="ClsDBConnection.cs" />
     <Compile Include="Controlls\CLMenuItemName.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,6 +71,12 @@
     </Compile>
     <Compile Include="CrlClos.Designer.cs">
       <DependentUpon>CrlClos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlDashboard.Designer.cs">
+      <DependentUpon>CrlDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="CrlRubricLevel.cs">
       <SubType>UserControl</SubType>
@@ -119,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrlClos.resx">
       <DependentUpon>CrlClos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlDashboard.resx">
+      <DependentUpon>CrlDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrlRubricLevel.resx">
       <DependentUpon>CrlRubricLevel.cs</DependentUpon>
