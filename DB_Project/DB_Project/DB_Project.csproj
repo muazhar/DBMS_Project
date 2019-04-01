@@ -66,6 +66,12 @@
     <Compile Include="CrlAssesmentComponent.Designer.cs">
       <DependentUpon>CrlAssesmentComponent.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrlAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrlAttendance.Designer.cs">
+      <DependentUpon>CrlAttendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="CrlClos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrlAssesmentComponent.resx">
       <DependentUpon>CrlAssesmentComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrlAttendance.resx">
+      <DependentUpon>CrlAttendance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrlClos.resx">
       <DependentUpon>CrlClos.cs</DependentUpon>
