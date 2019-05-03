@@ -102,6 +102,12 @@
     <Compile Include="CrlStudent.Designer.cs">
       <DependentUpon>CrlStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Evaluation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Evaluation.Designer.cs">
+      <DependentUpon>Evaluation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrlStudent.resx">
       <DependentUpon>CrlStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluation.resx">
+      <DependentUpon>Evaluation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -212,6 +221,7 @@
     <Content Include="Assets\imgSplash.PNG" />
     <Content Include="Assets\menu-icon-19342-Windows.ico" />
     <Content Include="Assets\menu-icon-19342.png" />
+    <None Include="Resources\manage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

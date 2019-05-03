@@ -83,6 +83,16 @@ namespace DB_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap manage {
+            get {
+                object obj = ResourceManager.GetObject("manage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_icon_19342 {
             get {
                 object obj = ResourceManager.GetObject("menu-icon-19342", resourceCulture);
